@@ -38,20 +38,6 @@ def create_prime_list(max_number):
     return primes
 
 
-def num_divisible(max_num):
-    index = 19*17*13*11*7*5*3*2
-    num_found = False
-    while not num_found:
-        divisible = True
-        for x in range(1, max_num+1):
-            if index % x != 0:
-                divisible = False
-        print(index)
-        if divisible:
-            return index
-        index -= 1
-
-
 def find_min_number(highest_factor, primes):
     a = []
     number = 1
