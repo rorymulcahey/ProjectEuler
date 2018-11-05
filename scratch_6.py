@@ -15,14 +15,4 @@ and the square of the sum.
 '''
 
 
-def sum_square_difference(num):
-    total = 0
-    square = 0
-    for x in range(1, num + 1):
-        total += x
-        square += x**2
-    total = total ** 2
-    return total - square
-
-
-print(sum_square_difference(100))
+solved
