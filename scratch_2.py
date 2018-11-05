@@ -10,19 +10,6 @@ find the sum of the even-valued terms.
 
 '''
 
-even_fib = 0
-x1 = 0
-x2 = 1
-for x in range(0, 32):
-    fib = x1 + x2
-    x1 = x2
-    x2 = fib
-    # print(fib)
-    if fib > 4000000:
-        break
-    if fib % 2 == 0:
-        even_fib += fib
-
-print(even_fib)
+solved
 
 
